@@ -1,0 +1,34 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1211711963	Moods			\Default Work Unit\Moods	
+
+State	ID	Name	State Group			Notes
+	443572635	Sad	Moods			
+	748895195	None	Moods			
+	1427264549	Happy	Moods			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	815923153	Unit_1_Placeholder_LP_Filter_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_LP_Filter_RTPC	
+	2083764750	Unit_1_Placeholder_Dist_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Dist_RTPC	
+	2112110976	Unit_1_Placeholder_Pitch_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Pitch_RTPC	
+	2673284029	Unit_1_Placeholder_Delay_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Delay_RTPC	
+	2749337084	Unit_1_Placeholder_Volume_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Volume_RTPC	
+	2856952622	Unit_2_Placeholder_Harmonizer_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_2\Unit_2_Placeholder_Harmonizer_RTPC	
+	3064756677	Unit_1_Placeholder_HP_Filter_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_HP_Filter_RTPC	
+	3404263313	Unit_2_Placeholder_Rvb_RTPC			\Default Work Unit\Placeholder_RTPCs\Unit_2\Unit_2_Placeholder_Rvb_RTPC	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1405339296	Unit_1_Bus			\Default Work Unit\Master Audio Bus\Unit_1_Bus	
+	2730952719	Unit_2_Bus			\Default Work Unit\Master Audio Bus\Unit_2_Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	427884694	Unit_1_Wwise_Matrix_Reverb	Wwise Matrix Reverb			
+	1484554613	Unit_1_Wwise_Harmonizer	Wwise Harmonizer			
+	2301415890	Master_Bus_Wwise_Peak_Limiter_Master	Wwise Peak Limiter			
+	2817280668	Unit_1_Wwise_Guitar_Distortion	Wwise Guitar Distortion			
+	3032197993	Unit_1_Wwise_Delay	Wwise Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

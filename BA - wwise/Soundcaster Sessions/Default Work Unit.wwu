@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B075CDE-F0A0-426A-AA39-E4EFA3927631}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{0B075CDE-F0A0-426A-AA39-E4EFA3927631}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Placeholder_Test" ID="{ADCE3F94-6613-4F7B-B189-DF45F23C9BFC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_174_Perc_SP" ID="{5D86D096-A6A3-4FAC-81B7-88C3409615D7}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_174_Perc_SP" ID="{D99220A8-6E0B-4D43-B914-EE7CF8E865CD}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Pitch_RTPC" ID="{17C8CDB3-6F57-4032-A76C-5A8B70E5D19F}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Volume_RTPC" ID="{2AA77CFE-E67B-44FB-B338-02B21A719408}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Delay_RTPC" ID="{D4114141-4BE5-48E2-B29B-C8EAEBB1D4DE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Rvb_RTPC" ID="{F8A592F3-340D-4AFF-9E37-F6C550791EF8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Harmonizer_RTPC" ID="{50582417-00BB-4B12-A287-F2B48607C6E2}"/>
+							<Value>78.4916201117318</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_Dist_RTPC" ID="{CD9580EB-15D3-4B19-B6DD-AB112423DA93}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_LP_Filter_RTPC" ID="{1848E303-724C-4E91-8FAD-E0176502C5DC}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Unit_1_Placeholder_HP_Filter_RTPC" ID="{5B8832F0-E7AC-4F94-AA38-7C54E3FC569C}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{6C12BCD3-CD6E-4E80-A60E-2721860F6650}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

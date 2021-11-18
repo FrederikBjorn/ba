@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/frederikb.blauenfeldt/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/BA/</ProjectRoot>
+		<SourceFilesRoot>/Users/frederikb.blauenfeldt/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/BA/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/frederikb.blauenfeldt/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/BA/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/frederikb.blauenfeldt/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/BA/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3802395609">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="815923153" Name="Unit_1_Placeholder_LP_Filter_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_LP_Filter_RTPC"/>
+				<GameParameter Id="2083764750" Name="Unit_1_Placeholder_Dist_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Dist_RTPC"/>
+				<GameParameter Id="2112110976" Name="Unit_1_Placeholder_Pitch_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Pitch_RTPC"/>
+				<GameParameter Id="2673284029" Name="Unit_1_Placeholder_Delay_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Delay_RTPC"/>
+				<GameParameter Id="2749337084" Name="Unit_1_Placeholder_Volume_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_Volume_RTPC"/>
+				<GameParameter Id="2856952622" Name="Unit_2_Placeholder_Harmonizer_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_2\Unit_2_Placeholder_Harmonizer_RTPC"/>
+				<GameParameter Id="3064756677" Name="Unit_1_Placeholder_HP_Filter_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_1\Unit_1_Placeholder_HP_Filter_RTPC"/>
+				<GameParameter Id="3404263313" Name="Unit_2_Placeholder_Rvb_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Placeholder_RTPCs\Unit_2\Unit_2_Placeholder_Rvb_RTPC"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2878262188" Language="SFX" Hash="520660251">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank_1</ObjectPath>
+			<ShortName>Soundbank_1</ShortName>
+			<Path>Soundbank_1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3015711629" Name="Play_174_Perc_SP" ObjectPath="\Events\Default Work Unit\174_Perc_SP\Play_174_Perc_SP" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="117261943" Language="SFX">
+							<ShortName>174_Perc_SP_03.wav</ShortName>
+							<Path>SFX/174_Perc_SP_03_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2054369612" Name="Play_C_LonleyVoices_SP" ObjectPath="\Events\Default Work Unit\C_LonleyVoices_SP\Play_C_LonleyVoices_SP" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="844133075" Language="SFX">
+							<ShortName>C_LonelyVoice_SP_01.wav</ShortName>
+							<Path>SFX/C_LonelyVoice_SP_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2133029407" Name="Stop_174_Perc_SP" ObjectPath="\Events\Default Work Unit\174_Perc_SP\Stop_174_Perc_SP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4206431382" Name="Stop_C_LonleyVoices_SP" ObjectPath="\Events\Default Work Unit\C_LonleyVoices_SP\Stop_C_LonleyVoices_SP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

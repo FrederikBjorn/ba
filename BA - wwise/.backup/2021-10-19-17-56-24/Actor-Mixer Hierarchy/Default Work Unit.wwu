@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49D4463F-E207-481E-A5F7-E1B1A4E156AE}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{49D4463F-E207-481E-A5F7-E1B1A4E156AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Placeholders" ID="{826EED3F-7042-4E71-8702-009075FCD1C7}" ShortID="395997003">
+					<ChildrenList>
+						<Sound Name="174_Perc_SP_03" ID="{4B74A427-6E61-4A4B-AF54-31EB50219F50}" ShortID="506904773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B36B6E8-374E-436A-8EFF-078828874984}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5CEF4A83-3F27-4BF6-B3EB-6BD9B2C4FD66}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="174_Perc_SP_03" ID="{E029D3CD-55E2-4C5F-BBB3-414ACFC8E87D}">
+									<Language>SFX</Language>
+									<AudioFile>174_Perc_SP_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="23717656"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="174_Perc_SP_03" ID="{E029D3CD-55E2-4C5F-BBB3-414ACFC8E87D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

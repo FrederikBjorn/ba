@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49D4463F-E207-481E-A5F7-E1B1A4E156AE}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{49D4463F-E207-481E-A5F7-E1B1A4E156AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Placeholders" ID="{826EED3F-7042-4E71-8702-009075FCD1C7}" ShortID="395997003">
+					<ChildrenList>
+						<Sound Name="174_Perc_SP_01" ID="{19B2FC97-3FA7-4B3B-B236-8ECB7DBFC070}" ShortID="645065241">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B36B6E8-374E-436A-8EFF-078828874984}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Unit_1_Bus" ID="{63A234F2-8931-4864-8C4E-EB872AD112CE}" WorkUnitID="{5CEF4A83-3F27-4BF6-B3EB-6BD9B2C4FD66}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="174_Perc_SP_03" ID="{0EC278E8-30E5-4BE2-9B7B-9E738F6DD9B9}">
+									<Language>SFX</Language>
+									<AudioFile>174_Perc_SP_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="117261943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Moods" ID="{849AFC0F-4B70-4088-84E1-65BB302F358C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Emotional" ID="{7F979A54-33AB-41EA-9FB6-EF6E59FBD1D2}"/>
+										<CustomState Name="" ID="{20749A2E-B756-4B7C-A3B0-08006E17B7C8}" ShortID="365664395"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exciting" ID="{C6A7C4F7-4E1A-429C-80F6-3DB221ABD93F}"/>
+										<CustomState Name="" ID="{35BC8303-C03F-4001-9018-800E387EEE4D}" ShortID="706240906"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ambience" ID="{77A61C4A-94B7-492E-AD4F-55A4BECF2721}"/>
+										<CustomState Name="" ID="{06275212-5A5A-4405-9C5B-27291C508F1E}" ShortID="152255033"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Happy" ID="{A5209839-46A5-4D48-9A80-54BE86926BBD}"/>
+										<CustomState Name="" ID="{9CFB770E-BD35-43B8-94A6-B1738DF8E811}" ShortID="747781128">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="174_Perc_SP_03" ID="{0EC278E8-30E5-4BE2-9B7B-9E738F6DD9B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C_LonelyVoice_SP_01" ID="{C5C1E0D5-33F4-415D-844A-A0B293308A3C}" ShortID="643469296">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B36B6E8-374E-436A-8EFF-078828874984}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Unit_1_Bus" ID="{63A234F2-8931-4864-8C4E-EB872AD112CE}" WorkUnitID="{5CEF4A83-3F27-4BF6-B3EB-6BD9B2C4FD66}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C_LonelyVoice_SP_01" ID="{186A634B-BAE9-4BCA-B81D-BC8263F95DF2}">
+									<Language>SFX</Language>
+									<AudioFile>C_LonelyVoice_SP_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="844133075"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Moods" ID="{849AFC0F-4B70-4088-84E1-65BB302F358C}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Emotional" ID="{7F979A54-33AB-41EA-9FB6-EF6E59FBD1D2}"/>
+										<CustomState Name="" ID="{019E77F9-B7CD-4B19-B45E-E93B358E2E21}" ShortID="999374295">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exciting" ID="{C6A7C4F7-4E1A-429C-80F6-3DB221ABD93F}"/>
+										<CustomState Name="" ID="{3358C7AB-9292-41AD-91E8-E998BC09D423}" ShortID="506937353"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ambience" ID="{77A61C4A-94B7-492E-AD4F-55A4BECF2721}"/>
+										<CustomState Name="" ID="{98E73A48-CE42-451D-835B-4DA1ACB5D319}" ShortID="955071785"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Happy" ID="{A5209839-46A5-4D48-9A80-54BE86926BBD}"/>
+										<CustomState Name="" ID="{A9D59FFC-DA7E-4170-A2AF-7D06CB924269}" ShortID="558638439"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="C_LonelyVoice_SP_01" ID="{186A634B-BAE9-4BCA-B81D-BC8263F95DF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

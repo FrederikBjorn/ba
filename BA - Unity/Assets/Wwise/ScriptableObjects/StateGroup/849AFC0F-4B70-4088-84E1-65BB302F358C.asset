@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebfed132e7964f278bbec410a363ff5, type: 3}
+  m_Name: 849AFC0F-4B70-4088-84E1-65BB302F358C
+  m_EditorClassIdentifier: 
+  objectName: Moods
+  id: 1211711963
+  guid: 849AFC0F-4B70-4088-84E1-65BB302F358C

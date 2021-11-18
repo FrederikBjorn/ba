@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5CEF4A83-3F27-4BF6-B3EB-6BD9B2C4FD66}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{5CEF4A83-3F27-4BF6-B3EB-6BD9B2C4FD66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{0311D9B2-EE42-4F5F-8CDA-85D43A3AFDF9}" WorkUnitID="{D2F1D150-71C4-4564-9764-F9CDC8757C2D}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Master_Bus_Wwise_Peak_Limiter_Master" ID="{94F5302F-4862-4DAB-9D6C-6CA4323AEE33}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Unit_1_Bus" ID="{63A234F2-8931-4864-8C4E-EB872AD112CE}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{48CB279A-65E4-4111-B04E-8153E7CAC973}" ShortID="83249522">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_1_Placeholder_Volume_RTPC" ID="{2AA77CFE-E67B-44FB-B338-02B21A719408}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3191E94D-E24D-40FB-B551-EEDFF65EF72C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusHighpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{1F886DB0-0F43-44D1-A88E-C30F2FA7FAE6}" ShortID="1038113896">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_1_Placeholder_HP_Filter_RTPC" ID="{5B8832F0-E7AC-4F94-AA38-7C54E3FC569C}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4104ECD0-AA10-4FD3-AE19-A84357F51455}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{CE20843A-9DC2-44B9-84A0-7DA1F2ABDAC8}" ShortID="918922946">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_1_Placeholder_LP_Filter_RTPC" ID="{1848E303-724C-4E91-8FAD-E0176502C5DC}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1A95CF5F-FE3C-48BE-AAB7-28EAEEF6C6F1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{62337B86-1FBA-4640-B4D3-140F5BE8A241}" ShortID="332705063">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_1_Placeholder_Pitch_RTPC" ID="{17C8CDB3-6F57-4032-A76C-5A8B70E5D19F}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8948FD57-9796-4124-BAE6-FB29EFBB29D1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<ObjectRef Name="Unit_1_Wwise_Guitar_Distortion" ID="{07B31EB5-4FD8-4C85-A7B1-44A5F66CFCDD}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Unit_1_Wwise_Harmonizer" ID="{0BD26C14-9B19-41F5-9730-DF2B50C2A0F2}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Unit_1_Wwise_Matrix_Reverb" ID="{AFDF85D2-D414-48CD-B265-B369DC375C98}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Unit_1_Wwise_Delay" ID="{0D95D757-665F-4A86-AF19-9E9B31CB226E}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Unit_2_Bus" ID="{858E1EFB-F7F9-43FC-9CB4-67E8DA95EE7B}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{471AC175-AF64-460C-A349-6CE9C6220CA4}" ShortID="427107787">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_2_Placeholder_Volume_RTPC" ID="{7D3E90D7-FA79-4DAB-BA68-00B3F34F1EFE}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{05A13669-5B55-46CE-82AC-AE5EF4AC76EB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusHighpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{11E59FA9-0EA9-4FCE-A11D-269631C23007}" ShortID="383083315">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_2_Placeholder_HP_Filter_RTPC" ID="{973DA5ED-C4A4-4E7E-AE3D-E07198F3245C}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D1A079BA-99CB-4805-9905-E50AA455C156}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{162FBD39-2AFB-42B7-9DC6-911002716C61}" ShortID="230322092">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_2_Placeholder_LP_Filter_RTPC" ID="{C6C33F10-DD85-43DE-ABDF-2026A89778E4}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3E10A0AE-5985-460E-859F-AE02C71303AF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{DD8929BB-2858-487F-A830-9DD6C51B89E2}" ShortID="924103117">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_2_Placeholder_Pitch_RTPC" ID="{49AE488C-9FE5-405D-B75F-5FC3B55B35A7}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{86F29DEB-C939-4A56-A843-3A55D2B1C4B3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<ObjectRef Name="Unit_2_Wwise_Guitar_Distortion" ID="{AEC65A1C-49D0-42BA-A480-F2F36FB8DF61}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Unit_2_Wwise_Harmonizer" ID="{13FD951D-6256-4FB6-8A6F-93A2BAA2CDF3}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Unit_2_Wwise_Matrix_Reverb" ID="{229A04EB-5E5F-4549-8FC0-0BDC96400988}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Unit_2_Wwise_Delay" ID="{7DC2953E-459B-4752-BE31-1FD4C50447C4}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Unit_3_Bus" ID="{9114EDEC-4543-46D8-BBEA-A7BC91610A51}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{0D03C9DA-65B8-4FC4-9280-759CBE97F0ED}" ShortID="861233085">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_3_Placeholder_Volume_RTPC" ID="{8817D5F4-C0A1-444E-A499-F39F0ACD2C47}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5EA25560-45EB-4C20-AB66-DF855A07E0A3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusHighpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{86E86D18-8A36-4CC8-86EF-3F5A19CC9062}" ShortID="272056336">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_3_Placeholder_HP_Filter_RTPC" ID="{90072D09-7427-46DE-9555-CF3D4643B5BF}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{023D8EA5-2D8A-46A7-AB27-8AC428DD67AD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{1C71B2FD-6201-4E2C-A0FE-7A4A4783A7BA}" ShortID="1041586469">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_3_Placeholder_LP_Filter_RTPC" ID="{415708FD-5963-488E-B455-EA9A0F634032}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C093E584-E115-4555-9AFD-E43D4FD06143}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{2B1AD99C-65FF-4C63-8DAB-B293D86FD5A5}" ShortID="221487248">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_3_Placeholder_Pitch_RTPC" ID="{E4A146F2-253E-4776-BE73-55ED024986EE}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E1BA6BB7-A469-4702-9103-BB869BC0745F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<ObjectRef Name="Unit_3_Wwise_Guitar_Distortion" ID="{FC304073-F53A-4880-9B6A-99E59C8107A3}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Unit_3_Wwise_Harmonizer" ID="{AE51FE30-8EAD-4233-9F84-6B5C77B12596}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Unit_3_Wwise_Matrix_Reverb" ID="{C264B548-06D8-4D09-AE5A-FEFDF04D032D}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Unit_3_Wwise_Delay" ID="{B6C24A7E-D674-46EB-898E-1E25909DE5F0}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Unit_4_Bus" ID="{B44DFE7B-8F3C-4EF7-BB8D-B49B5CCA45D8}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A461887D-8AC7-4AF1-9BB2-B28302D126C3}" ShortID="702284063">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_4_Placeholder_Volume_RTPC" ID="{7FCE75E4-C173-4658-9627-C4B77CDEBA04}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CC5A37E2-4826-4EFE-978C-5F3329C55A11}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusHighpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{46272C47-EADC-489C-BAE8-AD683E6C13D9}" ShortID="599072168">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_4_Placeholder_HP_Filter_RTPC" ID="{426EE3D9-1C30-4ABE-9185-86066BEDCA57}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DDCD477B-2500-47C5-AC19-B6243386419A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{A181BDCE-4A4F-4260-89F6-230DD21C4937}" ShortID="422966570">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_4_Placeholder_LP_Filter_RTPC" ID="{FEF89D64-85FD-40DE-A886-90F6968245C7}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{68854648-AA3B-4A3E-ADBA-BF3D80E0E354}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{DC4B4A0C-D443-4482-99FA-8941BB316152}" ShortID="419551930">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Unit_4_Placeholder_Pitch_RTPC" ID="{BA3DF894-C262-4F51-9874-416937E1CE42}" WorkUnitID="{724CFD2D-9A7A-4168-8D25-6362C3B2B8CE}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{23805FE0-577D-4DC1-8ED6-B42C94D62BEF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<ObjectRef Name="Unit_4_Wwise_Guitar_Distortion" ID="{1FD6D5C5-77E4-4C1B-8544-C4D8F3750971}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Unit_4_Wwise_Harmonizer" ID="{FD39CF40-580C-4C9C-8E0D-0CB3086BC188}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Unit_4_Wwise_Matrix_Reverb" ID="{1DB9CCA4-17EA-474F-A4D5-89EFBFC4D362}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="Unit_4_Wwise_Delay" ID="{B6531212-47C4-4F4F-AF1F-41917C1A15E5}" WorkUnitID="{3ED24524-4682-4710-AA48-CD69BB8C999A}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

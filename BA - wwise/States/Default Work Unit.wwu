@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3C85137B-CDE6-4DE5-84B8-B5C52639B3C1}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{3C85137B-CDE6-4DE5-84B8-B5C52639B3C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Moods" ID="{849AFC0F-4B70-4088-84E1-65BB302F358C}">
+					<ChildrenList>
+						<State Name="None" ID="{6C12BCD3-CD6E-4E80-A60E-2721860F6650}"/>
+						<State Name="Happy" ID="{A5209839-46A5-4D48-9A80-54BE86926BBD}"/>
+						<State Name="Emotional" ID="{7F979A54-33AB-41EA-9FB6-EF6E59FBD1D2}"/>
+						<State Name="Ambience" ID="{77A61C4A-94B7-492E-AD4F-55A4BECF2721}"/>
+						<State Name="Exciting" ID="{C6A7C4F7-4E1A-429C-80F6-3DB221ABD93F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

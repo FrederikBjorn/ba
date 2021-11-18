@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{207AB303-833F-4513-9427-729D6684E419}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{207AB303-833F-4513-9427-729D6684E419}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soundbank_1" ID="{96C1BD56-4433-4BDB-92B5-E7FB6F8E80CA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_C_LonleyVoices_SP" ID="{08F1E100-A36F-43A3-A778-8592D1D02955}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_C_LonleyVoices_SP" ID="{94E9E72B-306E-4965-82C0-C2AA31BB9009}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_174_Perc_SP" ID="{D99220A8-6E0B-4D43-B914-EE7CF8E865CD}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_174_Perc_SP" ID="{5D86D096-A6A3-4FAC-81B7-88C3409615D7}" WorkUnitID="{1DFCC871-AEA3-4370-B8A0-B2E6B00A442F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ef22db245244ea08ef7691e5cf76f8, type: 3}
+  m_Name: 17C8CDB3-6F57-4032-A76C-5A8B70E5D19F
+  m_EditorClassIdentifier: 
+  objectName: Unit_1_Placeholder_Pitch_RTPC
+  id: 2112110976
+  guid: 17C8CDB3-6F57-4032-A76C-5A8B70E5D19F

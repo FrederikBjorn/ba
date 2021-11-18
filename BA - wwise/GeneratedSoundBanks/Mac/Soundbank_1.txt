@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2054369612	Play_C_LonleyVoices_SP			\Default Work Unit\C_LonleyVoices_SP\Play_C_LonleyVoices_SP	
+	2133029407	Stop_174_Perc_SP			\Default Work Unit\174_Perc_SP\Stop_174_Perc_SP	
+	3015711629	Play_174_Perc_SP			\Default Work Unit\174_Perc_SP\Play_174_Perc_SP	
+	4206431382	Stop_C_LonleyVoices_SP			\Default Work Unit\C_LonleyVoices_SP\Stop_C_LonleyVoices_SP	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1211711963	Moods			\Default Work Unit\Moods	
+
+State	ID	Name	State Group			Notes
+	443572635	Sad	Moods			
+	748895195	None	Moods			
+	1427264549	Happy	Moods			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	747781128	Happy	Moods	\Actor-Mixer Hierarchy\Default Work Unit\Placeholders\174_Perc_SP_01		
+	999374295	Sad	Moods	\Actor-Mixer Hierarchy\Default Work Unit\Placeholders\C_LonelyVoice_SP_01		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	117261943	174_Perc_SP_01	Y:\Documents\WwiseProjects\BA\.cache\Mac\SFX\174_Perc_SP_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Placeholders\174_Perc_SP_01		1946800
+	844133075	C_LonelyVoice_SP_01	Y:\Documents\WwiseProjects\BA\.cache\Mac\SFX\C_LonelyVoice_SP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Placeholders\C_LonelyVoice_SP_01		2351684
+

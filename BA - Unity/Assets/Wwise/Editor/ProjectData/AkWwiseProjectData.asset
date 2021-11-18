@@ -1,0 +1,1164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: defdf240bc7094d9e861586c9b84bf6c, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a601e79b32841a4ca171c5c2c3ffce07
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: a601e79b32841a4ca171c5c2c3ffce07
+    GuidInternal: 
+    m_lastTime: -8585669479014775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+    GuidInternal: 
+    m_lastTime: -8585648795774775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Unit_1_Bus
+      guid: f234a263318964488c4eeb872ad112ce
+      id: 1405339296
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Unit_1_Bus
+        ObjectType: 2
+        guid: f234a263318964488c4eeb872ad112ce
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Unit_1_Bus
+    - name: Unit_2_Bus
+      guid: fb1e8e85f9f7fc439cb467e8da95ee7b
+      id: 2730952719
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Unit_2_Bus
+        ObjectType: 2
+        guid: fb1e8e85f9f7fc439cb467e8da95ee7b
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Unit_2_Bus
+    - name: Unit_3_Bus
+      guid: eced14914345d846bbeaa7bc91610a51
+      id: 4255605802
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Unit_3_Bus
+        ObjectType: 2
+        guid: eced14914345d846bbeaa7bc91610a51
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Unit_3_Bus
+    - name: Unit_4_Bus
+      guid: 7bfe4db43c8ff74ebb8db49b5cca45d8
+      id: 1553413897
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 834aef5c273ff64bb3eb6bd9b2c4fd66
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Unit_4_Bus
+        ObjectType: 2
+        guid: 7bfe4db43c8ff74ebb8db49b5cca45d8
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Unit_4_Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 03b37a203f8313459427729d6684e419
+    ParentPath: SoundBanks/Default Work Unit
+    guid: 03b37a203f8313459427729d6684e419
+    GuidInternal: 
+    m_lastTime: -8585660969664775808
+    List:
+    - name: Soundbank_1
+      guid: 56bdc1963344db4b92b5e7fb6f8e80ca
+      id: 2878262188
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 03b37a203f8313459427729d6684e419
+      - ElementName: Soundbank_1
+        ObjectType: 7
+        guid: 56bdc1963344db4b92b5e7fb6f8e80ca
+      Path: SoundBanks/Default Work Unit/Soundbank_1
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+    ParentPath: Events/Default Work Unit
+    guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+    GuidInternal: 
+    m_lastTime: -8585658342454775808
+    List:
+    - name: 174_Perc_SP
+      guid: 194da59eb9e8d9408e9bfbe3a0746c03
+      id: 2071864392
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: 174_Perc_SP
+        ObjectType: 4
+        guid: 194da59eb9e8d9408e9bfbe3a0746c03
+      Path: Events/Default Work Unit/174_Perc_SP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: C_LonleyVoices_SP
+      guid: 7c8cb6c47b9aa645ae58b3e6e6f7fbc2
+      id: 2734391225
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: C_LonleyVoices_SP
+        ObjectType: 4
+        guid: 7c8cb6c47b9aa645ae58b3e6e6f7fbc2
+      Path: Events/Default Work Unit/C_LonleyVoices_SP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_174_Perc_SP
+      guid: 96d0865da3a6ac4f81b788c3409615d7
+      id: 3015711629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: 174_Perc_SP
+        ObjectType: 4
+        guid: 194da59eb9e8d9408e9bfbe3a0746c03
+      - ElementName: Play_174_Perc_SP
+        ObjectType: 3
+        guid: 96d0865da3a6ac4f81b788c3409615d7
+      Path: Events/Default Work Unit/174_Perc_SP/Play_174_Perc_SP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_C_LonleyVoices_SP
+      guid: 2be7e9946e30654982c0c2aa31bb9009
+      id: 2054369612
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: C_LonleyVoices_SP
+        ObjectType: 4
+        guid: 7c8cb6c47b9aa645ae58b3e6e6f7fbc2
+      - ElementName: Play_C_LonleyVoices_SP
+        ObjectType: 3
+        guid: 2be7e9946e30654982c0c2aa31bb9009
+      Path: Events/Default Work Unit/C_LonleyVoices_SP/Play_C_LonleyVoices_SP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_174_Perc_SP
+      guid: a82092d90b6e434db914ee7cf8e865cd
+      id: 2133029407
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: 174_Perc_SP
+        ObjectType: 4
+        guid: 194da59eb9e8d9408e9bfbe3a0746c03
+      - ElementName: Stop_174_Perc_SP
+        ObjectType: 3
+        guid: a82092d90b6e434db914ee7cf8e865cd
+      Path: Events/Default Work Unit/174_Perc_SP/Stop_174_Perc_SP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_C_LonleyVoices_SP
+      guid: 00e1f1086fa3a343a7788592d1d02955
+      id: 4206431382
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71c8fc1da3ae7043b8a0b2e6b00a442f
+      - ElementName: C_LonleyVoices_SP
+        ObjectType: 4
+        guid: 7c8cb6c47b9aa645ae58b3e6e6f7fbc2
+      - ElementName: Stop_C_LonleyVoices_SP
+        ObjectType: 3
+        guid: 00e1f1086fa3a343a7788592d1d02955
+      Path: Events/Default Work Unit/C_LonleyVoices_SP/Stop_C_LonleyVoices_SP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2fb908c25c42ba42b971c9c48128bb46
+    ParentPath: Game Parameters/Default Work Unit
+    guid: 2fb908c25c42ba42b971c9c48128bb46
+    GuidInternal: 
+    m_lastTime: -8585667868284775808
+    List: []
+  - PhysicalPath: Game Parameters/Placeholder_RTPCs.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2fb908c25c42ba42b971c9c48128bb46
+    - ElementName: Placeholder_RTPCs
+      ObjectType: 12
+      guid: 2dfd4c727a9a68418d256362c3b2b8ce
+    ParentPath: Game Parameters/Default Work Unit/Placeholder_RTPCs
+    guid: 2dfd4c727a9a68418d256362c3b2b8ce
+    GuidInternal: 
+    m_lastTime: -8585657422534775808
+    List:
+    - name: Unit_1
+      guid: 34373e99df9bd94e83531f5008602581
+      id: 3004848215
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1
+    - name: Unit_1_Placeholder_Delay_RTPC
+      guid: 414111d4e54be248b29bc8eaebb1d4de
+      id: 2673284029
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Delay_RTPC
+        ObjectType: 13
+        guid: 414111d4e54be248b29bc8eaebb1d4de
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Delay_RTPC
+    - name: Unit_1_Placeholder_Dist_RTPC
+      guid: eb8095cdd315194bb6ddab112423da93
+      id: 2083764750
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Dist_RTPC
+        ObjectType: 13
+        guid: eb8095cdd315194bb6ddab112423da93
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Dist_RTPC
+    - name: Unit_1_Placeholder_Harmonizer_RTPC
+      guid: 17245850bb00124ba287f2b48607c6e2
+      id: 2336647889
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Harmonizer_RTPC
+        ObjectType: 13
+        guid: 17245850bb00124ba287f2b48607c6e2
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Harmonizer_RTPC
+    - name: Unit_1_Placeholder_HP_Filter_RTPC
+      guid: f032885bace7944faa387c54e3fc569c
+      id: 3064756677
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_HP_Filter_RTPC
+        ObjectType: 13
+        guid: f032885bace7944faa387c54e3fc569c
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_HP_Filter_RTPC
+    - name: Unit_1_Placeholder_LP_Filter_RTPC
+      guid: 03e348184c72914e8fade0176502c5dc
+      id: 815923153
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_LP_Filter_RTPC
+        ObjectType: 13
+        guid: 03e348184c72914e8fade0176502c5dc
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_LP_Filter_RTPC
+    - name: Unit_1_Placeholder_Pitch_RTPC
+      guid: b3cdc817576f3240a76c5a8b70e5d19f
+      id: 2112110976
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Pitch_RTPC
+        ObjectType: 13
+        guid: b3cdc817576f3240a76c5a8b70e5d19f
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Pitch_RTPC
+    - name: Unit_1_Placeholder_Rvb_RTPC
+      guid: f392a5f80d34ff4a9e37f6c550791ef8
+      id: 380973552
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Rvb_RTPC
+        ObjectType: 13
+        guid: f392a5f80d34ff4a9e37f6c550791ef8
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Rvb_RTPC
+    - name: Unit_1_Placeholder_Volume_RTPC
+      guid: fe7ca72a7be6fb44b33802b21a719408
+      id: 2749337084
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_1
+        ObjectType: 4
+        guid: 34373e99df9bd94e83531f5008602581
+      - ElementName: Unit_1_Placeholder_Volume_RTPC
+        ObjectType: 13
+        guid: fe7ca72a7be6fb44b33802b21a719408
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_1/Unit_1_Placeholder_Volume_RTPC
+    - name: Unit_2
+      guid: f211302abf7c3b4ab47ce3d02b8175b1
+      id: 3004848212
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2
+    - name: Unit_2_Placeholder_Delay_RTPC
+      guid: 6497a18ae14d3c4484aa62894702259a
+      id: 3358599608
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Delay_RTPC
+        ObjectType: 13
+        guid: 6497a18ae14d3c4484aa62894702259a
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Delay_RTPC
+    - name: Unit_2_Placeholder_Dist_RTPC
+      guid: fab4c8eb3301fc4781445f63d502cf59
+      id: 1738918749
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Dist_RTPC
+        ObjectType: 13
+        guid: fab4c8eb3301fc4781445f63d502cf59
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Dist_RTPC
+    - name: Unit_2_Placeholder_Harmonizer_RTPC
+      guid: 3cd657b53e383940b8c1c411a1ba29b9
+      id: 2856952622
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Harmonizer_RTPC
+        ObjectType: 13
+        guid: 3cd657b53e383940b8c1c411a1ba29b9
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Harmonizer_RTPC
+    - name: Unit_2_Placeholder_HP_Filter_RTPC
+      guid: eda53d97a4c47e4eae3de07198f3245c
+      id: 1845716972
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_HP_Filter_RTPC
+        ObjectType: 13
+        guid: eda53d97a4c47e4eae3de07198f3245c
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_HP_Filter_RTPC
+    - name: Unit_2_Placeholder_LP_Filter_RTPC
+      guid: 103fc3c685ddde43abdf2026a89778e4
+      id: 2891534464
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_LP_Filter_RTPC
+        ObjectType: 13
+        guid: 103fc3c685ddde43abdf2026a89778e4
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_LP_Filter_RTPC
+    - name: Unit_2_Placeholder_Pitch_RTPC
+      guid: 8c48ae49e59f5d40b75f5fc3b55b35a7
+      id: 1984158601
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Pitch_RTPC
+        ObjectType: 13
+        guid: 8c48ae49e59f5d40b75f5fc3b55b35a7
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Pitch_RTPC
+    - name: Unit_2_Placeholder_Rvb_RTPC
+      guid: 6ddea4cae60015419f37490c6ab1c439
+      id: 3404263313
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Rvb_RTPC
+        ObjectType: 13
+        guid: 6ddea4cae60015419f37490c6ab1c439
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Rvb_RTPC
+    - name: Unit_2_Placeholder_Volume_RTPC
+      guid: d7903e7d79faab4dba6800b3f34f1efe
+      id: 2001161891
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_2
+        ObjectType: 4
+        guid: f211302abf7c3b4ab47ce3d02b8175b1
+      - ElementName: Unit_2_Placeholder_Volume_RTPC
+        ObjectType: 13
+        guid: d7903e7d79faab4dba6800b3f34f1efe
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_2/Unit_2_Placeholder_Volume_RTPC
+    - name: Unit_3
+      guid: 5b58b1d3187e4e48816a217972b2446f
+      id: 3004848213
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3
+    - name: Unit_3_Placeholder_Delay_RTPC
+      guid: fb3d1b9a8e4d2e41bd8cc3891467ffe6
+      id: 3258682879
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Delay_RTPC
+        ObjectType: 13
+        guid: fb3d1b9a8e4d2e41bd8cc3891467ffe6
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Delay_RTPC
+    - name: Unit_3_Placeholder_Dist_RTPC
+      guid: 78e0273aa38d104db8f1d675bf7243a5
+      id: 2151435312
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Dist_RTPC
+        ObjectType: 13
+        guid: 78e0273aa38d104db8f1d675bf7243a5
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Dist_RTPC
+    - name: Unit_3_Placeholder_Harmonizer_RTPC
+      guid: 19e028b2aaa0b14dbc35e430037c376f
+      id: 3913084227
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Harmonizer_RTPC
+        ObjectType: 13
+        guid: 19e028b2aaa0b14dbc35e430037c376f
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Harmonizer_RTPC
+    - name: Unit_3_Placeholder_HP_Filter_RTPC
+      guid: 092d07902774de469555cf3d4643b5bf
+      id: 3461291027
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_HP_Filter_RTPC
+        ObjectType: 13
+        guid: 092d07902774de469555cf3d4643b5bf
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_HP_Filter_RTPC
+    - name: Unit_3_Placeholder_LP_Filter_RTPC
+      guid: fd08574163598e48b455ea9a0f634032
+      id: 2135675391
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_LP_Filter_RTPC
+        ObjectType: 13
+        guid: fd08574163598e48b455ea9a0f634032
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_LP_Filter_RTPC
+    - name: Unit_3_Placeholder_Pitch_RTPC
+      guid: f246a1e43e257647be7355ed024986ee
+      id: 794777774
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Pitch_RTPC
+        ObjectType: 13
+        guid: f246a1e43e257647be7355ed024986ee
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Pitch_RTPC
+    - name: Unit_3_Placeholder_Rvb_RTPC
+      guid: 5441d71bf949ff46ad772efa9136ef5b
+      id: 2057045294
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Rvb_RTPC
+        ObjectType: 13
+        guid: 5441d71bf949ff46ad772efa9136ef5b
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Rvb_RTPC
+    - name: Unit_3_Placeholder_Volume_RTPC
+      guid: f4d51788a1c04e44a499f39f0acd2c47
+      id: 2963802850
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_3
+        ObjectType: 4
+        guid: 5b58b1d3187e4e48816a217972b2446f
+      - ElementName: Unit_3_Placeholder_Volume_RTPC
+        ObjectType: 13
+        guid: f4d51788a1c04e44a499f39f0acd2c47
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_3/Unit_3_Placeholder_Volume_RTPC
+    - name: Unit_4
+      guid: 3ac4a6eab4422340a5c56f2695060f3f
+      id: 3004848210
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4
+    - name: Unit_4_Placeholder_Delay_RTPC
+      guid: f835df5e55543d4198388db29056bbd6
+      id: 911145530
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Delay_RTPC
+        ObjectType: 13
+        guid: f835df5e55543d4198388db29056bbd6
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Delay_RTPC
+    - name: Unit_4_Placeholder_Dist_RTPC
+      guid: 26a952400c4f6940ad467108e93497a5
+      id: 3248938071
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Dist_RTPC
+        ObjectType: 13
+        guid: 26a952400c4f6940ad467108e93497a5
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Dist_RTPC
+    - name: Unit_4_Placeholder_Harmonizer_RTPC
+      guid: 75d5a08ba74e0642a00d02ca315454e2
+      id: 3086189752
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Harmonizer_RTPC
+        ObjectType: 13
+        guid: 75d5a08ba74e0642a00d02ca315454e2
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Harmonizer_RTPC
+    - name: Unit_4_Placeholder_HP_Filter_RTPC
+      guid: d9e36e42301cbe4a918586066bedca57
+      id: 103677258
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_HP_Filter_RTPC
+        ObjectType: 13
+        guid: d9e36e42301cbe4a918586066bedca57
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_HP_Filter_RTPC
+    - name: Unit_4_Placeholder_LP_Filter_RTPC
+      guid: 649df8fefd85de40a88690f6968245c7
+      id: 1801538342
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_LP_Filter_RTPC
+        ObjectType: 13
+        guid: 649df8fefd85de40a88690f6968245c7
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_LP_Filter_RTPC
+    - name: Unit_4_Placeholder_Pitch_RTPC
+      guid: 94f83dba62c2514f9874416937e1ce42
+      id: 1956750927
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Pitch_RTPC
+        ObjectType: 13
+        guid: 94f83dba62c2514f9874416937e1ce42
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Pitch_RTPC
+    - name: Unit_4_Placeholder_Rvb_RTPC
+      guid: 6e2d48ea758a2c4ab938987c9bff523f
+      id: 2614874047
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Rvb_RTPC
+        ObjectType: 13
+        guid: 6e2d48ea758a2c4ab938987c9bff523f
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Rvb_RTPC
+    - name: Unit_4_Placeholder_Volume_RTPC
+      guid: e475ce7f73c158469627c4b77cdeba04
+      id: 3230733521
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2fb908c25c42ba42b971c9c48128bb46
+      - ElementName: Placeholder_RTPCs
+        ObjectType: 12
+        guid: 2dfd4c727a9a68418d256362c3b2b8ce
+      - ElementName: Unit_4
+        ObjectType: 4
+        guid: 3ac4a6eab4422340a5c56f2695060f3f
+      - ElementName: Unit_4_Placeholder_Volume_RTPC
+        ObjectType: 13
+        guid: e475ce7f73c158469627c4b77cdeba04
+      Path: Game Parameters/Default Work Unit/Placeholder_RTPCs/Unit_4/Unit_4_Placeholder_Volume_RTPC
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7b13853ce6cde54d84b8b5c52639b3c1
+    ParentPath: States/Default Work Unit
+    guid: 7b13853ce6cde54d84b8b5c52639b3c1
+    GuidInternal: 
+    m_lastTime: -8585657441014775808
+    List:
+    - name: Moods
+      guid: 0ffc9a84704b884084e165bb302f358c
+      id: 1211711963
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7b13853ce6cde54d84b8b5c52639b3c1
+      - ElementName: Moods
+        ObjectType: 9
+        guid: 0ffc9a84704b884084e165bb302f358c
+      Path: States/Default Work Unit/Moods
+      values:
+      - name: Ambience
+        guid: 4a1ca677b7942e49ad4f55a4becf2721
+        id: 85412153
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b13853ce6cde54d84b8b5c52639b3c1
+        - ElementName: Moods
+          ObjectType: 9
+          guid: 0ffc9a84704b884084e165bb302f358c
+        - ElementName: Ambience
+          ObjectType: 8
+          guid: 4a1ca677b7942e49ad4f55a4becf2721
+      - name: Emotional
+        guid: 549a977fab33ea419fb6ef6e59fbd1d2
+        id: 897338827
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b13853ce6cde54d84b8b5c52639b3c1
+        - ElementName: Moods
+          ObjectType: 9
+          guid: 0ffc9a84704b884084e165bb302f358c
+        - ElementName: Emotional
+          ObjectType: 8
+          guid: 549a977fab33ea419fb6ef6e59fbd1d2
+      - name: Exciting
+        guid: f7c4a7c61a4e9c4280f63db221abd93f
+        id: 897751574
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b13853ce6cde54d84b8b5c52639b3c1
+        - ElementName: Moods
+          ObjectType: 9
+          guid: 0ffc9a84704b884084e165bb302f358c
+        - ElementName: Exciting
+          ObjectType: 8
+          guid: f7c4a7c61a4e9c4280f63db221abd93f
+      - name: Happy
+        guid: 399820a5a546484d9a8054be86926bbd
+        id: 1427264549
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b13853ce6cde54d84b8b5c52639b3c1
+        - ElementName: Moods
+          ObjectType: 9
+          guid: 0ffc9a84704b884084e165bb302f358c
+        - ElementName: Happy
+          ObjectType: 8
+          guid: 399820a5a546484d9a8054be86926bbd
+      - name: None
+        guid: d3bc126c6ecd804ea60e2721860f6650
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7b13853ce6cde54d84b8b5c52639b3c1
+        - ElementName: Moods
+          ObjectType: 9
+          guid: 0ffc9a84704b884084e165bb302f358c
+        - ElementName: None
+          ObjectType: 8
+          guid: d3bc126c6ecd804ea60e2721860f6650
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c9e7f69b988ac842972e8c5533d4cda6
+    ParentPath: Switches/Default Work Unit
+    guid: c9e7f69b988ac842972e8c5533d4cda6
+    GuidInternal: 
+    m_lastTime: -8585669479014775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f58081f317e0b34a8123e8ddf02bc7ef
+    ParentPath: Triggers/Default Work Unit
+    guid: f58081f317e0b34a8123e8ddf02bc7ef
+    GuidInternal: 
+    m_lastTime: -8585669479014775808
+    List: []
+  ExpandedFileSystemItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001100000012000000140000001600000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002a000000
+  ExpandedWaapiItemIds: 0200000003000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 
